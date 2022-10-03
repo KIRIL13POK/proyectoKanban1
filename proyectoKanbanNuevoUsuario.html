@@ -3,67 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
-
     <title>Proyecto Kanban 1</title>
     <link rel="icon" type="imagi" href="imgKanban/kanban-board-4185851-3461798.png">
-    <link rel="stylesheet" type="text/css" href="proyectoKanban1.css">
+    <link rel="stylesheet" type="text/css" href="nuevoUsuario.css">
 </head>
 
 <body>
+    <div id="h1">
+        <h1> Te damos la bienvenida!! </h1>
+    </div>
     <div id="logo">
         <img src="imgKanban/kanban-board-4185851-3461798.png" alt="">
     </div>
 
     <header>
-        <main>
+        <section class="datos-nuevo-usuario">
+            <h2>Introduce tus datos:</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre" name="nombredesuario" required />
 
-            <section id="Nuevo usuario:">
-                <h2>CONTACTO:</h2>
-                <form>
-                    <div id="nombre">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" />
-                    </div>
-                    <div id="contraseña">
-                        <label for="number">Contraseña</label>
-                        <input type="number" id="Contraseña">
-                    </div>
-                    <div id="repetirContraseña">
-                        <label for="number">Repetir contraseña</label>
-                        <input type="number" id="Contraseña">
-                    </div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Apellido" name="apellidodesuario" required />
+
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" placeholder="Contraseña" name="passwordesuario" required>
+
+                <label for="repetir-contrasena">Repetir contraseña</label>
+                <input type="password" id="repetir-contrasena" placeholder="Repetir contraseña" name="passwordesuario"
+                    required>
+
+                <label for="email">Em@il</label>
+                <input type="email" id="email" name="correousuario" placeholder="Correo electronico" required />
                 
-                    <div id="correo">
-                        <label for="email">Email</label>
-                        <input type="email" id="email">
-                    </div>
-                    <div id="edad">
-                        <label for="number">Edad</label>
-                        <input type="number" id="Edad">
-                    </div>
-                    <div id="telefono">
-                        <label for="number">Telefono</label>
-                        <input type="number" id="Telefono">
-                    </div>
-                   <!-- <div>
+                
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad"name="edadusuario" placeholder="Años" required>
+                
+                
+                    <label for="telefono">Telefono</label>
+                    <input type="number" id="telefono" name="telefonousuario" placeholder="Introduce su numero" required >
+                
+                <!-- <div>
                         <label for="genero">Genero</label>
                         <select id="genero">
                             <option value="hombre">Hombre</option>
                             <option value="mujer">Mujer</option>
                         </select>
                     </div>-->
-                    
-                    <input type="submit" value="Crear Usuario.">
-                </form>
+
+                <input type="submit" value="Crear Usuario.">
+            </form>
 
 
-            </section>
-        </main>
+        </section>
+
     </header>
     <footer> Proyecto de MentorV con PadavaNPok FirstWeb &copy;2022</footer>
 
 
-    
+
 
 
 </body>
