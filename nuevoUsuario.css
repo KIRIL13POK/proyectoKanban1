@@ -24,7 +24,8 @@ h1{
 .datos-nuevo-usuario input[type="password"],
 .datos-nuevo-usuario input[type="email"],
 .datos-nuevo-usuario input[type="number"],
-.datos-nuevo-usuario input[type="date"]{
+.datos-nuevo-usuario input[type="date"]
+{
 	-webkit-transition: all 0.30s ease-in-out;
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;
@@ -46,12 +47,17 @@ h1{
 .datos-nuevo-usuario input[type="email"],
 .datos-nuevo-usuario input[type="number"],
 .datos-nuevo-usuario input[type="date"]
+
+
+
 {
 	box-shadow: 0 0 5px #43D1AF;
 	padding: 3%;
 	border: 1px solid #43D1AF;
 }
-.datos-nuevo-usuario input[type="submit"]{
+.datos-nuevo-usuario input[type="submit"]
+
+{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -64,25 +70,4 @@ h1{
 	border-left-style: none;	
 	color: #fff;
 }
-.datos-nuevo-usuario select{
-	box-shadow: 0 0 5px #43D1AF;
-	padding: 3%;
-	border: 1px solid #43D1AF;
-}
-.datos-nuevo-usuario select{
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-	outline: none;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	background: #fff;
-	margin-bottom: 4%;
-	border: 1px solid #ccc;
-	padding: 3%;
-	color: #555;
-	font: 95% Arial, Helvetica, sans-serif;
-}
+

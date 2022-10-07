@@ -29,12 +29,11 @@
                 <label for="fecha-nacimiento">Fecha de nacimiento</label>
                 <input type="date" id="fecha-nacimiento" name="edadeusuario" required>
 
-                <label for="genero">Genero</label>
-                <select id="genero" name="genero-usuario" required>
-                    <option value="hombre">Hombre</option>
-                    <option value="mujer">Mujer</option>
-                </select>
-
+                <input type="radio" id="hombre" name="genero">
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="genero" id="mujer">
+                <label for="mujer">Mujer</label>
+                <br> <br>
                 <label for="contrasena">Contraseña</label>
                 <input type="password" id="contrasena" placeholder="Contraseña" name="passwordesuario" required>
 
